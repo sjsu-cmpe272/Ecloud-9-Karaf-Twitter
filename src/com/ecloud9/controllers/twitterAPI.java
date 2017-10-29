@@ -26,10 +26,10 @@ import twitter4j.auth.AccessToken;
 
 @Controller
 public class twitterAPI {
-	static String consumerKeyStr = "ctNiMacyHwi6J4qKigJ9dRIHc";
-	static String consumerSecretStr = "f76HB2JobTqG11r06xTv3BtDh8YiIj1KsjqRP3Xc0ZKdX7cuQO";
-	static String accessTokenStr = "918993529887637505-L0sHjh9XzC2PxHYdpm0yhwUdnCp68jW";
-	static String accessTokenSecretStr = "UXgL1TpyXECQJetslkFi4B96qAcMyhx36whobfbm88FEX";
+	static String consumerKeyStr = "add consumer key";
+	static String consumerSecretStr = "add consumer secret key";
+	static String accessTokenStr = "add acess token";
+	static String accessTokenSecretStr = "add acess token secret";
 
 	@RequestMapping(method = RequestMethod.POST, value = "/updateTwitter")
 	public String updateStatus(HttpServletRequest request, HttpSession session) throws TwitterException {
