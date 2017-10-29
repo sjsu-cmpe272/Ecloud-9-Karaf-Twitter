@@ -1,4 +1,4 @@
-package com.anjana.controllers;
+package com.ecloud9.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.anjana.forms.twitterFriendship;
-import com.anjana.forms.twitterStatus;
+import com.ecloud9.forms.twitterFriendship;
+import com.ecloud9.forms.twitterStatus;
 
 import twitter4j.DirectMessage;
 import twitter4j.Friendship;
